@@ -1,0 +1,92 @@
+:root{
+    --bright-blue: rgba(104, 161, 186, 1);
+    --text-main: #0B313B; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bright-blue);
+
+}
+header {
+    font-family: 'roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0%;
+    align-items: center;
+    text-align: left;
+
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+header nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    justify-content: center;
+    
+    
+}
+
+header a{
+    color:var(--text-main);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    align-items: center;
+    color: black;
+    text-align: center;
+    display: flex;
+    /* gap: 13vh; */
+    text-decoration: none;
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+/* nav{
+    padding-left: 20rem;
+} */
+
+a:hover{
+    color: black;
+    font-weight: bold;
+    translate: 1px;
+}
+/* body{
+    background-image: url(../Assets/daniel-leone-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+} */
+
+.logo{
+    max-height: 100px;
+    max-width: 100px;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.borderline{
+    display: flex;
+    width: 40%;
+    height: 1px;
+    background-color: black;
+    margin: 0 auto;
+}
+/* body{
+    display: flex;
+} */
