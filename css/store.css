@@ -1,0 +1,106 @@
+.storecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.leftstore{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: fit-content;
+    border: 1px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #eeeeee80;
+    /* min-width: 30%; */
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    
+}
+
+.item1 {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+}
+
+.h2store{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.productinfo{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.productinfo p {
+    display: flex;
+    text-decoration: none;
+}
+
+.jacket {
+    border: 2px;
+    background-color: gray;
+    size: 100%;
+    border-radius: 10%;
+    border-style: double;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.price {
+    font-weight: bold;
+}
+.bnbtn {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    background: rgba(10, 54, 65, 0.75);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    text-align: center;
+    justify-content: center;
+    border: 10px 10px 10px 10px;    
+    margin: 0 10px;
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.storeheader{
+font-family: 'Roboto';
+font-style: italic;
+font-weight: 100;
+font-size: 20px;
+line-height: 59px;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+@media (min-width: 767px) {
+.storecontainer{
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+.leftstore{
+    width: 30%;
+    margin-top: unset;
+}
+.storeheader{
+    font-size: 30px;
+
+}
+}
+

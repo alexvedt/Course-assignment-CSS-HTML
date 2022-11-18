@@ -10,8 +10,22 @@
   
   body {
     background-color: var(--bright-blue);
+    display: flex;
+    flex-direction: column;
     
   }
+
+  html {
+    box-sizing: border-box;
+   }
+   html:focus-within {
+    scroll-behavior: smooth;
+   }
+   *,
+   *::before,
+   *::after {
+    box-sizing: inherit;
+   }
   
   header {
     font-family: "roboto", sans-serif;
@@ -24,6 +38,7 @@
     max-width: 100%;
     margin: 0 auto;
     align-items: center;
+    flex: 1;
   }
   
   .navbar {
@@ -67,78 +82,24 @@
     background-color: black;
     margin: 0 auto;
   }
-  body{
+/*   body{
     background-image: url(../Assets/daniel-leone-background.png);
-    /* background-size: contain; */
+    background-size: contain;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-}
+  } */
 
-.maintext{
-  font-size: x-large;
-  display: flex;
-  flex-direction: column;
-  font-style: normal;
-}
-
-.quote{
-display: flex;
-flex-direction: row;
-justify-content: center;
-font-style: italic;
-font-weight: 100;
-font-size: 50px;
-line-height: 59px;
-text-align: center;
-letter-spacing: 0.03em;
-
-}
-
-.classbuttons{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-top: 4rem;
-
-}
-
-.buynowbtn{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 38px;
-line-height: 54px;
-text-align: center;
-letter-spacing: 0.06em;
-background: rgba(10, 54, 65, 0.75);
-border: 1px solid rgba(0, 0, 0, 0);
-border-radius: 10px;
-}
-.buynowbtn:hover{
-  background: #D9D9D9;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-
-}
-
-.learnmorebtn{
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 38px;
-line-height: 54px;
-text-align: center;
-letter-spacing: 0.06em;
-color: rgba(10, 54, 65, 0.75);
-background: rgba(255, 255, 255, 0.75);
-border: 1px solid #000000;
-border-radius: 10px;
-}
-
-.learnmorebtn:hover{
-  background: rgba(10, 54, 65, 0.75);
-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-color: white;
-}
+  @media (min-width: 1340px) {
+    body{
+        background-image: url(../Assets/daniel-leone-background.png);
+        background-size: contain;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+      }
+      
+    }
+    
