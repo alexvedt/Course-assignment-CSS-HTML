@@ -35,6 +35,11 @@
         align-items: center;    
     }
 
+    .msgbox{
+        display: flex;
+        height: 200px;
+    }
+
     /* author: w3schools
 source: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 input[type=text], select, textarea {
@@ -48,7 +53,6 @@ input[type=text], select, textarea {
     resize: vertical;
   }
   
-  /* Style the submit button with a specific background color etc */
   input[type=submit] {
     background-color: var(--bright-blue);
     color: white;
