@@ -15,17 +15,11 @@
     
   }
 
-  html {
-    box-sizing: border-box;
-   }
-   html:focus-within {
-    scroll-behavior: smooth;
-   }
-   *,
-   *::before,
-   *::after {
-    box-sizing: inherit;
-   }
+  *,
+*::before,
+*::after {
+ box-sizing: inherit;
+}
   
   header {
     font-family: "roboto", sans-serif;
@@ -82,16 +76,20 @@
     background-color: black;
     margin: 0 auto;
   }
-/*   body{
-    background-image: url(../Assets/daniel-leone-background.png);
-    background-size: contain;
-    background-size: cover;
+
+
+
+/*   This is a background I used for the sites, after many tries and checks i chose not to have it active, but if you want to see how it looks active you can see.
+  body{
+    background-image: url(../Assets/daniel-leone-background.png); */
+/*     background-size: contain;
+ */    /* background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-  } */
+  }
 
-  @media (min-width: 1340px) {
+  @media (min-width: 767px) {
     body{
         background-image: url(../Assets/daniel-leone-background.png);
         background-size: contain;
@@ -101,5 +99,6 @@
         height: 100vh;
       }
       
-    }
+    } */
+    
     

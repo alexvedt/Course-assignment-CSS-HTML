@@ -4,8 +4,7 @@
     justify-content: center;
     width: 90%;
     margin: 0 auto;
-    /* padding-top: 8rem; */
-    /* flex-wrap: wrap; */
+
 }
 .checkoutheader{
     font-family: 'Roboto';
@@ -16,19 +15,11 @@
     text-align: center;
     letter-spacing: 0.03em;
     }
-    .textsize  {
-        display: flex;
-        justify-content: center;
-        border-bottom: 1px solid black;
-        padding-bottom: 1rem;
-    }
+
 .maincontainer{
     display: flex;
     flex-direction: column;
     width: 30%;
-    /* height: fit-content; */
-    border: 1px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: #eeeeee80;
     width: 1072px;
     border-radius: 10px;
@@ -50,7 +41,6 @@
 }
 .h2checkout{
     display: flex;
-    text-align: center;
     justify-content: center;
     margin: 0 auto;
     border-bottom: 1px solid black;
@@ -58,6 +48,9 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+/* author: w3schools
+source: https:ww.w3schools.com/howto/howto_css_checkout_form.a */
 .form {
     display: flex;
     flex-direction: row;
@@ -109,14 +102,14 @@
     display: block;
   }
   
-  .icon-container {
+  .card-container {
     margin-bottom: 20px;
     padding: 7px 0;
     font-size: 24px;
   }
   
   .btn {
-    background-color: #04AA6D;
+    background: rgba(10, 54, 65, 0.75);
     color: white;
     padding: 12px;
     margin: 10px 0;
@@ -136,7 +129,6 @@
     color: grey;
   }
   
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
   @media (max-width: 800px) {
     .row {
       flex-direction: column-reverse;
